@@ -1,0 +1,15 @@
+#editor project files
+*.sublime-workspace
+*.sublime-project
+*.esproj
+*.espressostorage
+*.komodoproject
+
+#files
+*.sass-cache
+*.suo
+*.bak
+*.cache
+*.DS_Store
+.sass-cache/
+[Tt]humbs\.db
