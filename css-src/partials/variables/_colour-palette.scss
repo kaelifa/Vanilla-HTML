@@ -1,13 +1,9 @@
 //Colour palette
+
+// Define colours
 $color-white:				#fff;
 $color-black:				#000;
 $color-brand:				#000;
-
-$color-copy:				lighten($color-black, 10%);
-$color-text-shadow:			darken($color-white, 5%);
-$color-page-bg:			$color-white;
-
-$color-border:				lighten($color-black, 50%);
 
 // Add URL to colour scheme if one has been used
 // http://www.colourlovers.com/palette/1389950/teal_brocade
@@ -28,3 +24,9 @@ $color-brand-rgb-complementary1:	223,205,180;	// Reed - #dfcdb4
 $color-brand-rgb-complementary2:	251,238,211;	// Gypsy moth - #fbeed3
 
 // $color-brand-complementary:	rgba(120, 192, 192, 1);
+
+$color-copy:				lighten($color-black, 10%);
+$color-text-shadow:			darken($color-white, 5%);
+$color-page-bg:			$color-white;
+
+$color-border:				lighten($color-black, 50%);
