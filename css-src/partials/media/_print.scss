@@ -1,7 +1,7 @@
 @media print {
 	* {
 		background: transparent !important;
-		color: #000 !important;
+		color: $color-black !important;
 		box-shadow: none !important;
 		text-shadow: none !important;
 	}
@@ -31,7 +31,7 @@
 
 	pre,
 	blockquote {
-		border: 1px solid #999;
+		border: 1px solid $color-border;
 		page-break-inside: avoid;
 	}
 

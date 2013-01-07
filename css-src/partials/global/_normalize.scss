@@ -119,8 +119,8 @@ dfn {
 // */
 
 mark {
-	background: #ff0;
-	color: #000;
+	background: $color-mark;
+	color: $color-copy;
 }
 
 // *
@@ -224,7 +224,7 @@ figure {
 // */
 
 fieldset {
-	border: 1px solid #c0c0c0;
+	border: 1px solid $color-border;
 	margin: 0 2px;
 	padding: 0.35em 0.625em 0.75em;
 }

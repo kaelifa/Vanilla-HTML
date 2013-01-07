@@ -8,13 +8,13 @@
 
 /* line 7, ../css-src/partials/global/_selection.scss */
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #fbeed3;
   text-shadow: none;
 }
 
 /* line 12, ../css-src/partials/global/_selection.scss */
 ::selection {
-  background: #b3d4fc;
+  background: #fbeed3;
   text-shadow: none;
 }
 
@@ -85,8 +85,8 @@ dfn {
 
 /* line 121, ../css-src/partials/global/_normalize.scss */
 mark {
-  background: #ff0;
-  color: #000;
+  background: #fbeed3;
+  color: #1a1a1a;
 }
 
 /* line 133, ../css-src/partials/global/_normalize.scss */
@@ -152,7 +152,7 @@ figure {
 
 /* line 226, ../css-src/partials/global/_normalize.scss */
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid gray;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
@@ -352,7 +352,7 @@ a:hover {
 /* line 5, ../css-src/partials/elements/_hr.scss */
 hr {
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid gray;
   display: block;
   height: 1px;
   margin: 1em 0;
@@ -363,7 +363,7 @@ hr {
   /* line 2, ../css-src/partials/media/_print.scss */
   * {
     background: transparent !important;
-    color: #000 !important;
+    color: black !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
@@ -394,7 +394,7 @@ hr {
   /* line 33, ../css-src/partials/media/_print.scss */
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid gray;
     page-break-inside: avoid;
   }
 
