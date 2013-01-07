@@ -10,8 +10,12 @@ images_dir = "template-assets"
 javascripts_dir = "js"
 fonts_dir = "fonts"
 
+# output_style = :compressed
+# output_style = :compact
+# output_style = :nested
 output_style = :expanded
-environment = :development
+environment = :production
+# environment = :development
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
 # relative_assets = true

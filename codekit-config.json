@@ -118,17 +118,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css-src\/partials\/global\/_normalize.scss" : {
+    "\/js\/vendor\/modernizr.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/global\/_normalize.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_normalize.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/modernizr.min-ck.js",
+      "fileType" : 64
     },
     "\/css-src\/partials\/media\/_print.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -142,16 +141,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/vendor\/modernizr.min.js" : {
+    "\/css-src\/partials\/global\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/modernizr.min-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/css-src\/partials\/global\/_normalize.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_normalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
@@ -301,18 +301,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css-src\/partials\/default-layout\/_main.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/default-layout\/_main.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_main.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/css-src\/partials\/mixins\/_font-stacks.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -322,6 +310,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_font-stacks.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css-src\/partials\/default-layout\/_main.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css-src\/partials\/default-layout\/_main.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_main.css",
       "fileType" : 4,
       "debugStyle" : 0
     },

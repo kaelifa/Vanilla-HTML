@@ -1,24 +1,20 @@
 @charset "UTF-8";
-/* line 14, ../../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.5/sass/susy/_grid.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 7, ../css-src/partials/global/_selection.scss */
 ::-moz-selection {
   background: #fbeed3;
   text-shadow: none;
 }
 
-/* line 12, ../css-src/partials/global/_selection.scss */
 ::selection {
   background: #fbeed3;
   text-shadow: none;
 }
 
-/* line 21, ../css-src/partials/global/_normalize.scss */
 article,
 aside,
 details,
@@ -33,63 +29,52 @@ summary {
   display: block;
 }
 
-/* line 31, ../css-src/partials/global/_normalize.scss */
 audio,
 canvas,
 video {
   display: inline-block;
 }
 
-/* line 40, ../css-src/partials/global/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 49, ../css-src/partials/global/_normalize.scss */
 [hidden] {
   display: none;
 }
 
-/* line 66, ../css-src/partials/global/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 75, ../css-src/partials/global/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
 }
 
-/* line 88, ../css-src/partials/global/_normalize.scss */
 h1 {
   font-size: 2em;
 }
 
-/* line 96, ../css-src/partials/global/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 105, ../css-src/partials/global/_normalize.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 113, ../css-src/partials/global/_normalize.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 121, ../css-src/partials/global/_normalize.scss */
 mark {
   background: #fbeed3;
   color: #1a1a1a;
 }
 
-/* line 133, ../css-src/partials/global/_normalize.scss */
 code,
 kbd,
 pre,
@@ -98,24 +83,20 @@ samp {
   font-size: 1em;
 }
 
-/* line 142, ../css-src/partials/global/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 152, ../css-src/partials/global/_normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-/* line 160, ../css-src/partials/global/_normalize.scss */
 small {
   font-size: 80%;
 }
 
-/* line 169, ../css-src/partials/global/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -124,47 +105,39 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 176, ../css-src/partials/global/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 180, ../css-src/partials/global/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 193, ../css-src/partials/global/_normalize.scss */
 img {
   border: 0;
   vertical-align: middle;
 }
 
-/* line 202, ../css-src/partials/global/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 214, ../css-src/partials/global/_normalize.scss */
 figure {
   margin: 0;
 }
 
-/* line 226, ../css-src/partials/global/_normalize.scss */
 fieldset {
   border: 1px solid gray;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 238, ../css-src/partials/global/_normalize.scss */
 legend {
   border: 0;
   padding: 0;
   white-space: normal;
 }
 
-/* line 253, ../css-src/partials/global/_normalize.scss */
 button,
 input,
 select,
@@ -174,13 +147,11 @@ textarea {
   margin: 0;
 }
 
-/* line 265, ../css-src/partials/global/_normalize.scss */
 button,
 input {
   line-height: normal;
 }
 
-/* line 280, ../css-src/partials/global/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -189,20 +160,16 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 290, ../css-src/partials/global/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
 }
 
-/* line 300, ../css-src/partials/global/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
-  box-sizing: border-box;
   padding: 0;
 }
 
-/* line 311, ../css-src/partials/global/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -210,53 +177,45 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 324, ../css-src/partials/global/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 333, ../css-src/partials/global/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 344, ../css-src/partials/global/_normalize.scss */
 textarea {
   overflow: auto;
   resize: vertical;
   vertical-align: top;
 }
 
-/* line 358, ../css-src/partials/global/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 6, ../css-src/partials/global/_typography.scss */
 html {
-  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 62.5%;
 }
 
-/* line 10, ../css-src/partials/global/_typography.scss */
 body {
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.4;
 }
 
-/* line 15, ../css-src/partials/global/_typography.scss */
 h1 {
   font-size: 55px;
   font-size: 5.5rem;
   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 
-/* line 26, ../css-src/partials/global/_typography.scss */
 h2,
 h3,
 h4,
@@ -265,73 +224,51 @@ h5 {
   font-weight: normal;
 }
 
-/* line 30, ../css-src/partials/global/_typography.scss */
 h2 {
   font-size: 42px;
   font-size: 4.2rem;
 }
 
-/* line 37, ../css-src/partials/global/_typography.scss */
 h3 {
   font-size: 26px;
   font-size: 2.6rem;
 }
 
-/* line 44, ../css-src/partials/global/_typography.scss */
 h4 {
   font-size: 20px;
   font-size: 2rem;
   font-weight: bold;
 }
 
-/* line 49, ../css-src/partials/global/_typography.scss */
 h5 {
   font-size: 18px;
   font-size: 1.8rem;
 }
 
-/* line 53, ../css-src/partials/global/_typography.scss */
 h6 {
   font-size: 14px;
   font-size: 1.4rem;
 }
 
-/* line 59, ../css-src/partials/global/_typography.scss */
-.formField,
-p,
-ul {
-  margin-top: 0;
-  margin-bottom: 1em;
-}
-
-/* line 64, ../css-src/partials/global/_typography.scss */
 small,
 aside {
   font-size: 10px;
   font-size: 1rem;
 }
 
-/* line 68, ../css-src/partials/global/_typography.scss */
-button {
-  font-weight: bold;
-}
-
-/* line 1, ../css-src/partials/elements/_html.scss */
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   overflow-y: scroll;
 }
 
-/* line 1, ../css-src/partials/elements/_body.scss */
 body {
   background: white;
   color: #1a1a1a;
-  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   margin: 0;
 }
 
-/* line 4, ../css-src/partials/elements/_nav.scss */
 nav ul,
 nav ol,
 nav li {
@@ -340,16 +277,13 @@ nav li {
   padding: 0;
 }
 
-/* line 1, ../css-src/partials/elements/_a.scss */
 a {
   text-decoration: underline;
 }
-/* line 3, ../css-src/partials/elements/_a.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 5, ../css-src/partials/elements/_hr.scss */
 hr {
   border: 0;
   border-top: 1px solid gray;
@@ -360,7 +294,6 @@ hr {
 }
 
 @media print {
-  /* line 2, ../css-src/partials/media/_print.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -368,48 +301,40 @@ hr {
     text-shadow: none !important;
   }
 
-  /* line 10, ../css-src/partials/media/_print.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 14, ../css-src/partials/media/_print.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 18, ../css-src/partials/media/_print.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 28, ../css-src/partials/media/_print.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 33, ../css-src/partials/media/_print.scss */
   pre,
   blockquote {
     border: 1px solid gray;
     page-break-inside: avoid;
   }
 
-  /* line 38, ../css-src/partials/media/_print.scss */
   thead {
     display: table-header-group;
   }
 
-  /* line 43, ../css-src/partials/media/_print.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 47, ../css-src/partials/media/_print.scss */
   img {
     max-width: 100% !important;
   }
@@ -418,7 +343,6 @@ hr {
     margin: 0.5cm;
 }
 
-  /* line 57, ../css-src/partials/media/_print.scss */
   p,
   h2,
   h3 {
@@ -426,7 +350,6 @@ hr {
     widows: 3;
   }
 
-  /* line 63, ../css-src/partials/media/_print.scss */
   h2,
   h3 {
     page-break-after: avoid;
