@@ -12,6 +12,10 @@
 // ** @section: Compass */
 @import "compass/css3";
 
+// ** @section: Grid */
+@import "susy";
+@import 'modular-scale';
+
 // ** @section: Variables */
 @import "partials/variables/colour-palette";
 
@@ -21,7 +25,7 @@
 @import "partials/mixins/rgba-bg";
 
 // ** @section: Global */
-@import "partials/global/border-box";
+@include border-box-sizing;
 @import "partials/global/selection";
 @import "partials/global/normalize";
 @import "partials/global/typography";
@@ -34,13 +38,10 @@
 @import "partials/elements/hx";
 @import "partials/elements/hr";
 
-// ** @section: Scaffold */
-@import "partials/scaffold/grid";
-
 // ** @section: Layout */
 @import "partials/default-layout/wrapper";
 @import "partials/default-layout/header";
-@import "partials/default-layout/body";
+@import "partials/default-layout/main";
 @import "partials/default-layout/footer";
 
 // ** @section: Navigation */

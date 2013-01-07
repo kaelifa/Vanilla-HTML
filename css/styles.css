@@ -1,6 +1,8 @@
 @charset "UTF-8";
-/* line 1, ../css-src/partials/global/_border-box.scss */
+/* line 14, ../../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.5/sass/susy/_grid.scss */
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -355,102 +357,6 @@ hr {
   height: 1px;
   margin: 1em 0;
   padding: 0;
-}
-
-/* line 1, ../css-src/partials/scaffold/_grid.scss */
-.lastUnit {
-  overflow: hidden;
-  *overflow: visible;
-  *zoom: 1;
-}
-
-/* line 7, ../css-src/partials/scaffold/_grid.scss */
-.row {
-  *zoom: 1;
-}
-/* line 10, ../css-src/partials/scaffold/_grid.scss */
-.row:before, .row:after {
-  display: table;
-  line-height: 0;
-  content: "";
-}
-/* line 15, ../css-src/partials/scaffold/_grid.scss */
-.row:after {
-  clear: both;
-}
-
-/* line 20, ../css-src/partials/scaffold/_grid.scss */
-.unit {
-  float: left;
-}
-
-/* line 23, ../css-src/partials/scaffold/_grid.scss */
-.unitRight {
-  float: right;
-}
-
-/* line 26, ../css-src/partials/scaffold/_grid.scss */
-.size1of1 {
-  float: none;
-}
-
-/* line 29, ../css-src/partials/scaffold/_grid.scss */
-.size1of2 {
-  width: 50%;
-}
-
-/* line 32, ../css-src/partials/scaffold/_grid.scss */
-.size1of3 {
-  width: 33.33333%;
-}
-
-/* line 35, ../css-src/partials/scaffold/_grid.scss */
-.size2of3 {
-  width: 66.66666%;
-}
-
-/* line 38, ../css-src/partials/scaffold/_grid.scss */
-.size1of4 {
-  width: 25%;
-}
-
-/* line 41, ../css-src/partials/scaffold/_grid.scss */
-.size2of4 {
-  width: 50%;
-}
-
-/* line 44, ../css-src/partials/scaffold/_grid.scss */
-.size3of4 {
-  width: 75%;
-}
-
-/* line 47, ../css-src/partials/scaffold/_grid.scss */
-.size1of5 {
-  width: 20%;
-}
-
-/* line 50, ../css-src/partials/scaffold/_grid.scss */
-.size2of5 {
-  width: 40%;
-}
-
-/* line 53, ../css-src/partials/scaffold/_grid.scss */
-.size3of5 {
-  width: 60%;
-}
-
-/* line 56, ../css-src/partials/scaffold/_grid.scss */
-.size4of5 {
-  width: 80%;
-}
-
-/* line 59, ../css-src/partials/scaffold/_grid.scss */
-.lastUnit {
-  float: none;
-  width: auto;
-  _position: relative;
-  _left: -3px;
-  _margin-right: -3px;
 }
 
 @media print {
