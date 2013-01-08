@@ -186,6 +186,25 @@
 				</dl>
 
 				<h2 class="ks_title" id="ks_form">Form</h2>
+				<form action="">
+					<fieldset class="formField formText">
+						<label for="formfieldID01" class="">Name</label>
+
+						<input type="text" name="formfieldID01" placeholder="Field placeholder" id="formfieldID01" />
+					</fieldset>
+
+					<fieldset class="formField formDate">
+						<label for="formfieldID02" class="">
+							Date
+							<span class="formRequired">*</span>
+						</label>
+
+						<input type="date" name="formfieldID02" placeholder="Start date" id="formfieldID02" required />
+
+						<span class="formMessage formInvalid">Please enter a valid date</span>
+						<span class="formMessage formValid">Valid</span>
+					</fieldset>
+				</form>
 			</div>
 
 			<footer class="layoutFooter" role="contentinfo">
