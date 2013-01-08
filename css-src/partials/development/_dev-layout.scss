@@ -52,6 +52,7 @@
 }
 .t_kitchenSink {
 	.navSecondary {
+		position: fixed;
 		@include at-breakpoint($tablet) {
 			@include span-columns(2,12);
 		}

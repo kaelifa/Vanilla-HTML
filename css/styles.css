@@ -471,6 +471,9 @@ hr {
   font-weight: bold;
 }
 
+.t_kitchenSink .navSecondary {
+  position: fixed;
+}
 @media (min-width: 41em) {
   .t_kitchenSink .navSecondary {
     width: 15.25424%;
