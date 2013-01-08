@@ -16,28 +16,47 @@
 		<script src="js/vendor/modernizr.min.js"></script>
 		<!-- Styling for the templates information page ONLY, not to be used in the actual build. -->
 		<style type="text/css">
+			h1 {
+				font-size: 130%;
+			}
+			h2 {
+				border-bottom: 2px solid #eee;
+				font-size: 120%;
+				font-weight: bold;
+			}
+			table {
+				width: 100%;
+			}
 			th {
-				background: #EEEEEE;
+				background: #eee;
 			}
 			th,
 			td {
-				border: 1px solid #CCCCCC;
+				border: 1px solid #ccc;
+				font-size: 80%;
+				padding: 0.25em 0.5em;
+				text-align: left;
+				vertical-align: top;
 			}
 			.notStarted {
-				background: #FF0000;
+				background: #ff0000;
 			}
 			.inProgress {
-				background: #DB96A8;
+				background: #db96a8;
 			}
 			.complete {
-				background: #81C272;
+				background: #81c272;
+			}
+			.thumbnail img {
+				height: 75px;
+				width: 75px;
 			}
 		</style>
 	</head>
 	<body>
 		<div class="layoutWrapper">
 			<header class="layoutHeader" role="banner">
-				<h1>Templates - [CLIENT] [PROJECT NAME]</h1>
+				<h1>Templates - [CLIENT] [PROJECT NAME] [PROJECT NUMBER]</h1>
 			</header>
 
 			<nav class="navPrimary" role="navigation">
@@ -47,14 +66,16 @@
 				</ul>
 			</nav>
 
-			<div class="layoutMain" role="main">
+			<div class="layoutMain contentMain" role="main">
 				<!-- KEY
 					XX = developer's initials
-					<td class="notStarted">Not Started</td>
-					<td class="notApplicable">Not Applicable</td>
-					<td class="inProgress">XX - In Progress</td>
-					<td class="complete">XX - Complete</td>
+					<td class="overview notStarted">Not Started</td>
+					<td class="overview notApplicable">Not Applicable</td>
+					<td class="overview inProgress">XX - In Progress</td>
+					<td class="overview complete">XX - Complete</td>
 				-->
+
+				<h2>Template Status</h2>
 
 				<table>
 					<thead>
@@ -66,50 +87,96 @@
 							<th>Guide</th>
 							<th>Status</th>
 							<th>IE fixes</th>
-							<th>Notes/Questions</th>
+							<th>Notes</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr class="default">
-							<!-- Template --><td><a href="home.html">Master Template</a></td>
-							<!-- PSD name --><td>[FILENAME].psd</td>
-							<!-- Thumbnail --><td class="thumbnail"><a href="thumbnails/master-wrapper.png"><img src="thumbnails/master-wrapper.png" /></a></td>
-							<!-- Type --><td>Default</td>
-							<!-- Guide --><td class="thumbnail"><a href="thumbnails/master-wrapper.png"><img src="thumbnails/master-wrapper.png" /></a></td>
-							<!-- Status --><td class="notStarted">XX - Not Started</td>
-							<!-- IE fixes --><td class="notStarted">XX - Not Started</td>
-							<!-- Notes/Questions --><td>
+							<td class="overviewTemplate">
+								<a href="home.html">Master Template</a>
+							</td>
+							<td class="overviewPSD">
+								[FILENAME].psd
+							</td>
+							<td class="overview thumbnail">
+								<a href="thumbnails/master-wrapper.png"><img src="thumbnails/master-wrapper.png" /></a>
+							</td>
+							<td class="overviewTemplateType">
+								Default
+							</td>
+							<td class="overviewGuide thumbnail">
+								<a href="thumbnails/master-wrapper.png"><img src="thumbnails/master-wrapper.png" /></a>
+							</td>
+							<td class="overviewStatus notStarted">
+								XX - Not Started
+							</td>
+							<td class="overviewIE notStarted">
+								XX - Not Started
+							</td>
+							<td class="overviewNotes">
 								<ul>
 									<li>Ignore for testing</li>
 								</ul>
 							</td>
 						</tr>
 						<tr class="default">
-							<!-- Template --><td><a href="home.html">Master Template</a></td>
-							<!-- PSD name --><td>[FILENAME].psd</td>
-							<!-- Thumbnail --><td class="thumbnail"><a href="thumbnails/master-wrapper.png"><img src="thumbnails/master-wrapper.png" /></a></td>
-							<!-- Type --><td>Default</td>
-							<!-- Guide --><td class="thumbnail"><a href="thumbnails/master-wrapper.png"><img src="thumbnails/master-wrapper.png" /></a></td>
-							<!-- Status --><td class="inProgress">XX - In Progress</td>
-							<!-- IE fixes --><td class="notStarted">XX - Not Started</td>
-							<!-- Notes/Questions --><td>&nbsp;</td>
+							<td class="overviewTemplate">
+								<a href="home.html">Master Template</a>
+							</td>
+							<td class="overviewPSD">
+								[FILENAME].psd
+							</td>
+							<td class="overview thumbnail">
+								<a href="thumbnails/master-wrapper.png"><img src="thumbnails/master-wrapper.png" /></a>
+							</td>
+							<td class="overviewTemplateType">
+								Default
+							</td>
+							<td class="overviewGuide thumbnail">
+								<a href="thumbnails/master-wrapper.png"><img src="thumbnails/master-wrapper.png" /></a>
+							</td>
+							<td class="overviewStatus inProgress">
+								XX - In Progress
+							</td>
+							<td class="overviewIE notStarted">
+								XX - Not Started
+							</td>
+							<td class="overviewNotes">
+								&nbsp;
+							</td>
 						</tr>
 						<tr class="default">
-							<!-- Template --><td><a href="home.html">Master Template</a></td>
-							<!-- PSD name --><td>[FILENAME].psd</td>
-							<!-- Thumbnail --><td class="thumbnail"><a href="thumbnails/master-wrapper.png"><img src="thumbnails/master-wrapper.png" /></a></td>
-							<!-- Type --><td>Default</td>
-							<!-- Guide --><td class="thumbnail"><a href="thumbnails/master-wrapper.png"><img src="thumbnails/master-wrapper.png" /></a></td>
-							<!-- Status --><td class="complete">XX - Complete</td>
-							<!-- IE fixes --><td class="notStarted">XX - Not Started</td>
-							<!-- Notes/Questions --><td>&nbsp;</td>
+							<td class="overviewTemplate">
+								<a href="home.html">Master Template</a>
+							</td>
+							<td class="overviewPSD">
+								[FILENAME].psd
+							</td>
+							<td class="overview thumbnail">
+								<a href="thumbnails/master-wrapper.png"><img src="thumbnails/master-wrapper.png" /></a>
+							</td>
+							<td class="overviewTemplateType">
+								Default
+							</td>
+							<td class="overviewGuide thumbnail">
+								<a href="thumbnails/master-wrapper.png"><img src="thumbnails/master-wrapper.png" /></a>
+							</td>
+							<td class="overviewStatus complete">
+								XX - Complete
+							</td>
+							<td class="overviewIE notStarted">
+								XX - Not Started
+							</td>
+							<td class="overviewNotes">
+								&nbsp;
+							</td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
 
-			<div class="">
-				<div class="">
+			<div class="contentSub">
+				<div class="contentPanel">
 					<h2>Documentation</h2>
 					<dl>
 						<dt>Date:</dt>
@@ -126,22 +193,22 @@
 						</dd>
 					</dl>
 				</div>
-				<div class="">
+				<div class="contentPanel">
 					<h2>Template types:</h2>
 					<ul>
-						<li class="t-master">Master</li>
-						<li class="t-homepage">Home</li>
-						<li class="t-contentTwoColumn">Content two column</li>
-						<li class="t-contentThreeColumn">Content three column</li>
-						<li class="t-landingTwoColumn">Landing two column</li>
-						<li class="t-landingThreeColumn">Landing three column</li>
+						<li class="t_Master">Master</li>
+						<li class="t_Homepage">Home</li>
+						<li class="t_ContentTwoColumn">Content two column</li>
+						<li class="t_ContentThreeColumn">Content three column</li>
+						<li class="t_LandingTwoColumn">Landing two column</li>
+						<li class="t_LandingThreeColumn">Landing three column</li>
 					</ul>
 				</div>
-				<div class="">
+				<div class="contentPanel">
 					<h2>Checklist:</h2>
 					<ul>
 						<li>Favicon &amp; apple icons</li>
-						<li>404 Page</li>
+						<li>Error Page(s) - 404</li>
 						<li>Cookies policy</li>
 						<li>Print styles</li>
 						<li>Kitchen Sink</li>
@@ -149,13 +216,13 @@
 						<li>Style Guide</li>
 					</ul>
 				</div>
-				<div class="">
+				<div class="contentPanel">
 					<h2>Browser support list:</h2>
-					<p><strong><em>List browser support list here as stated in any requirements documentation</em> eg; All major current browsers as at YYYY-MM-DD, different versions of all major web browsers including IE6 and IE7, graceful degradation shall be permissable where older browsers do not support more modern functionality.</strong></p>
+					<p><em>List browser support list here as stated in any requirements documentation</em> eg; All major current browsers as at YYYY-MM-DD, different versions of all major web browsers including IE6 and IE7, graceful degradation shall be permissable where older browsers do not support more modern functionality.</p>
 				</div>
-				<div class="">
+				<div class="contentPanel">
 					<h2>Device support list:</h2>
-					<p><strong><em>List device support list here as stated in any requirements documentation</em></strong></p>
+					<p><em>List device support list here as stated in any requirements documentation</em></p>
 				</div>
 			</div>
 

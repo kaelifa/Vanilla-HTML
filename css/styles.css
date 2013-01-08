@@ -403,29 +403,85 @@ hr {
 @media (min-width: 41em) {
   .contentMain {
     width: 66.10169%;
-    float: left;
-    margin-right: 1.69492%;
+    float: right;
+    margin-right: 0;
   }
 }
 @media (min-width: 55em) {
   .contentMain {
     width: 66.10169%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 55em) {
+  .contentPanel {
+    width: 49.15254%;
     float: left;
     margin-right: 1.69492%;
+  }
+  .contentPanel:nth-child(2n) {
+    float: right;
+    margin-right: 0;
+  }
+}
+
+.navPrimary {
+  *zoom: 1;
+  max-width: 26em;
+  _width: 26em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+.navPrimary:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 41em) {
+  .navPrimary {
+    max-width: 41em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navPrimary:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@media (min-width: 55em) {
+  .navPrimary {
+    max-width: 61em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navPrimary:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }
 
 @media (min-width: 41em) {
-  .contentSub {
+  .navSecondary {
     width: 32.20339%;
-    float: right;
-    margin-right: 0;
+    float: left;
+    margin-right: 1.69492%;
   }
 }
 @media (min-width: 55em) {
-  .contentSub {
+  .navSecondary {
     width: 32.20339%;
-    float: right;
-    margin-right: 0;
+    float: left;
+    margin-right: 1.69492%;
   }
 }

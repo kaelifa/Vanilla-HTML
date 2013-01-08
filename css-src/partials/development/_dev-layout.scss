@@ -9,17 +9,36 @@
 }
 .contentMain {
 	@include at-breakpoint($tablet) {
-		@include span-columns(8,12);
+		@include span-columns(8 omega,12);
 	}
 	@include at-breakpoint($computer) {
-		@include span-columns(8,12);
+		@include span-columns(8 omega,12);
 	}
 }
 .contentSub {
+
+}
+.contentPanel {
+	@include at-breakpoint($computer) {
+		@include span-columns(6,12); // each contentPanel is 6 of 12 cols.
+		&:nth-child(2n) { @include omega; } // every second panel completes a row.
+	}
+}
+.navPrimary {
+	@include container;
 	@include at-breakpoint($tablet) {
-		@include span-columns(4 omega,12);
+		@include container;
 	}
 	@include at-breakpoint($computer) {
-		@include span-columns(4 omega,12);
+		@include container;
+	}
+	margin-bottom: 1em;
+}
+.navSecondary {
+	@include at-breakpoint($tablet) {
+		@include span-columns(4,12);
+	}
+	@include at-breakpoint($computer) {
+		@include span-columns(4,12);
 	}
 }
