@@ -47,7 +47,3 @@ h5 {
 h6 {
 	@include font-size(1.4);
 }
-small,
-aside {
-	@include font-size(1.0);
-}
