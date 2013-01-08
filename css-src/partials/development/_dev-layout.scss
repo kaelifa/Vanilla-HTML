@@ -1,44 +1,99 @@
-.layoutWrapper {
-	@include container;
-	@include at-breakpoint($tablet) {
+// Styling for the templates information page ONLY, not to be used in the actual build.
+.t_dev {
+	.layoutWrapper {
 		@include container;
+		@include at-breakpoint($tablet) {
+			@include container;
+		}
+		@include at-breakpoint($computer) {
+			@include container;
+		}
 	}
-	@include at-breakpoint($computer) {
-		@include container;
-	}
-}
-.contentMain {
-	@include at-breakpoint($tablet) {
-		@include span-columns(8 omega,12);
-	}
-	@include at-breakpoint($computer) {
-		@include span-columns(8 omega,12);
-	}
-}
-.contentSub {
+	.contentSub {
 
-}
-.contentPanel {
-	@include at-breakpoint($computer) {
-		@include span-columns(6,12); // each contentPanel is 6 of 12 cols.
-		&:nth-child(2n) { @include omega; } // every second panel completes a row.
 	}
-}
-.navPrimary {
-	@include container;
-	@include at-breakpoint($tablet) {
+	.contentPanel {
+		@include at-breakpoint($computer) {
+			@include span-columns(6,12); // each contentPanel is 6 of 12 cols.
+			&:nth-child(2n) { @include omega; } // every second panel completes a row.
+		}
+	}
+	.navPrimary {
 		@include container;
+		@include at-breakpoint($tablet) {
+			@include container;
+		}
+		@include at-breakpoint($computer) {
+			@include container;
+		}
+		margin-bottom: 1em;
+		li {
+			float: left;
+			margin-right: 1em;
+		}
+		a {
+			display: block;
+			padding: 0 1em;
+			text-decoration: none;
+			&:hover,
+			.current & {
+
+			}
+		}
 	}
-	@include at-breakpoint($computer) {
-		@include container;
+	.pageTitle {
+		font-size: 130%;
 	}
-	margin-bottom: 1em;
+	.ks_title {
+		border-bottom: 2px solid #eee;
+		font-size: 120%;
+		font-weight: bold;
+	}
 }
-.navSecondary {
-	@include at-breakpoint($tablet) {
-		@include span-columns(4,12);
+.t_kitchenSink {
+	.navSecondary {
+		@include at-breakpoint($tablet) {
+			@include span-columns(2,12);
+		}
+		@include at-breakpoint($computer) {
+			@include span-columns(2,12);
+		}
 	}
-	@include at-breakpoint($computer) {
-		@include span-columns(4,12);
+	.contentMain {
+		@include at-breakpoint($tablet) {
+			@include span-columns(10 omega,12);
+		}
+		@include at-breakpoint($computer) {
+			@include span-columns(10 omega,12);
+		}
+	}
+}
+.FETO  {
+	table {
+		width: 100%;
+	}
+	th {
+		background: #eee;
+	}
+	th,
+	td {
+		border: 1px solid #ccc;
+		font-size: 80%;
+		padding: 0.25em 0.5em;
+		text-align: left;
+		vertical-align: top;
+	}
+	.notStarted {
+		background: #ff0000;
+	}
+	.inProgress {
+		background: #db96a8;
+	}
+	.complete {
+		background: #81c272;
+	}
+	.thumbnail img {
+		height: 75px;
+		width: 75px;
 	}
 }

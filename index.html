@@ -14,49 +14,11 @@
 
 		<link rel="stylesheet" href="css/styles.css" />
 		<script src="js/vendor/modernizr.min.js"></script>
-		<!-- Styling for the templates information page ONLY, not to be used in the actual build. -->
-		<style type="text/css">
-			h1 {
-				font-size: 130%;
-			}
-			h2 {
-				border-bottom: 2px solid #eee;
-				font-size: 120%;
-				font-weight: bold;
-			}
-			table {
-				width: 100%;
-			}
-			th {
-				background: #eee;
-			}
-			th,
-			td {
-				border: 1px solid #ccc;
-				font-size: 80%;
-				padding: 0.25em 0.5em;
-				text-align: left;
-				vertical-align: top;
-			}
-			.notStarted {
-				background: #ff0000;
-			}
-			.inProgress {
-				background: #db96a8;
-			}
-			.complete {
-				background: #81c272;
-			}
-			.thumbnail img {
-				height: 75px;
-				width: 75px;
-			}
-		</style>
 	</head>
-	<body>
+	<body class="t_dev">
 		<div class="layoutWrapper">
 			<header class="layoutHeader" role="banner">
-				<h1>Templates - [CLIENT] [PROJECT NAME] [PROJECT NUMBER]</h1>
+				<h1 class="pageTitle">Templates - [CLIENT] [PROJECT NAME] [PROJECT NUMBER]</h1>
 			</header>
 
 			<nav class="navPrimary" role="navigation">
@@ -66,7 +28,7 @@
 				</ul>
 			</nav>
 
-			<div class="layoutMain contentMain" role="main">
+			<div class="FETO layoutMain contentMain" role="main">
 				<!-- KEY
 					XX = developer's initials
 					<td class="overview notStarted">Not Started</td>
@@ -175,7 +137,7 @@
 				</table>
 			</div>
 
-			<div class="contentSub">
+			<div class="FETO contentSub">
 				<div class="contentPanel">
 					<h2>Documentation</h2>
 					<dl>
