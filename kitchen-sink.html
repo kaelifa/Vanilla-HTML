@@ -42,6 +42,7 @@
 					<li><a href="#ks_code">Code</a></li>
 					<li><a href="#ks_dl">Definition List</a></li>
 					<li><a href="#ks_form">Form</a></li>
+					<li><a href="#">Top</a></li>
 				</ul>
 			</nav>
 			<div class="contentMain" role="main">
@@ -190,7 +191,7 @@
 					<fieldset class="formField formText">
 						<label for="formfieldID01" class="">Name</label>
 
-						<input type="text" name="formfieldID01" placeholder="Field placeholder" id="formfieldID01" />
+						<input type="text" name="formfieldID01" placeholder="Text Field placeholder" id="formfieldID01" />
 					</fieldset>
 
 					<fieldset class="formField formDate">
@@ -201,8 +202,71 @@
 
 						<input type="date" name="formfieldID02" placeholder="Start date" id="formfieldID02" required />
 
-						<span class="formMessage formInvalid">Please enter a valid date</span>
-						<span class="formMessage formValid">Valid</span>
+						<!-- <span class="formMessage formInvalid">Please enter a valid date</span>
+						<span class="formMessage formValid">Valid</span> -->
+					</fieldset>
+
+					<fieldset class="formField formNumber">
+						<label for="formfieldID10" class="">Name</label>
+
+						<input type="number" name="formfieldID10" placeholder="Number Field placeholder" id="formfieldID10" />
+					</fieldset>
+
+					<fieldset class="formField formSelect">
+						<label for="formfieldID03">Select</label>
+						<select name="formfieldID03" id="formfieldID03">
+							<option value="Option 1">Option 1</option>
+							<option value="Option 2">Option 2</option>
+							<option value="Option 3">Option 3</option>
+						</select>
+					</fieldset>
+
+					<fieldset class="formField formMultiSelect">
+						<label for="formfieldID12">Select</label>
+						<select name="formfieldID12" id="formfieldID12" multiple="2">
+							<option value="Option 1">Option 1</option>
+							<option value="Option 2">Option 2</option>
+							<option value="Option 3">Option 3</option>
+							<option value="Option 4">Option 4</option>
+							<option value="Option 5">Option 5</option>
+							<option value="Option 6">Option 6</option>
+							<option value="Option 7">Option 7</option>
+							<option value="Option 8">Option 8</option>
+							<option value="Option 9">Option 9</option>
+						</select>
+					</fieldset>
+
+					<fieldset class="formField formCheckbox">
+						<legend>Checkbox</legend>
+						<label for="formfieldID04" class="">Checkbox 1</label>
+						<input type="checkbox" name="formfieldID04" id="formfieldID04" />
+
+						<label for="formfieldID05" class="">Checkbox 2</label>
+						<input type="checkbox" name="formfieldID05" id="formfieldID05" />
+
+						<label for="formfieldID06" class="">Checkbox 3</label>
+						<input type="checkbox" name="formfieldID06" id="formfieldID06" />
+					</fieldset>
+
+					<fieldset class="formField formRadio">
+						<legend>Checkbox</legend>
+						<label for="formfieldID07" class="">Radio 1</label>
+						<input type="radio" name="formfieldID07" id="formfieldID07" />
+
+						<label for="formfieldID08" class="">Radio 2</label>
+						<input type="radio" name="formfieldID08" id="formfieldID08" />
+
+						<label for="formfieldID09" class="">Radio 3</label>
+						<input type="radio" name="formfieldID09" id="formfieldID09" />
+					</fieldset>
+
+					<fieldset class="formField formTextarea">
+						<label for="formfieldID11">Textarea</label>
+						<textarea name="formfieldID11" id="formfieldID11" cols="30" rows="10"></textarea>
+					</fieldset>
+
+					<fieldset class="formField formSubmit">
+						<input type="submit" class="button" value="Update details" />
 					</fieldset>
 				</form>
 			</div>
