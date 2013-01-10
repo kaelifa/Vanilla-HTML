@@ -190,7 +190,6 @@
 				<form action="">
 					<fieldset class="formField formText">
 						<label for="formfieldID01" class="">Name</label>
-
 						<input type="text" name="formfieldID01" placeholder="Text Field placeholder" id="formfieldID01" />
 					</fieldset>
 
@@ -199,7 +198,6 @@
 							Date
 							<span class="formRequired">*</span>
 						</label>
-
 						<input type="date" name="formfieldID02" placeholder="Start date" id="formfieldID02" required />
 
 						<!-- <span class="formMessage formInvalid">Please enter a valid date</span>
@@ -208,7 +206,6 @@
 
 					<fieldset class="formField formNumber">
 						<label for="formfieldID10" class="">Name</label>
-
 						<input type="number" name="formfieldID10" placeholder="Number Field placeholder" id="formfieldID10" />
 					</fieldset>
 
@@ -238,41 +235,41 @@
 
 					<fieldset class="formField formCheckbox">
 						<legend>Checkbox</legend>
-						<div>
-							<label for="formfieldID04" class="">
+						<div class="formMultiFieldWrapper">
+							<p><label for="formfieldID04" class="">
 								<input type="checkbox" name="formfieldID04" id="formfieldID04" />
 								Checkbox 1
-							</label>
+							</label></p>
 
-							<label for="formfieldID05" class="">
+							<p><label for="formfieldID05" class="">
 								<input type="checkbox" name="formfieldID05" id="formfieldID05" />
 								Checkbox 2
-							</label>
+							</label></p>
 
-							<label for="formfieldID06" class="">
+							<p><label for="formfieldID06" class="">
 								<input type="checkbox" name="formfieldID06" id="formfieldID06" />
 								Checkbox 3
-							</label>
+							</label></p>
 						</div>
 					</fieldset>
 
 					<fieldset class="formField formRadio">
 						<legend>Radio</legend>
-						<div>
-							<label for="formfieldID07" class="">
+						<div class="formMultiFieldWrapper">
+							<p><label for="formfieldID07" class="">
 								<input type="radio" name="formfieldID07" id="formfieldID07" />
 								Radio 1
-							</label>
+							</label></p>
 
-							<label for="formfieldID08" class="">
+							<p><label for="formfieldID08" class="">
 								<input type="radio" name="formfieldID08" id="formfieldID08" />
 								Radio 2
-							</label>
+							</label></p>
 
-							<label for="formfieldID09" class="">
+							<p><label for="formfieldID09" class="">
 								<input type="radio" name="formfieldID09" id="formfieldID09" />
 								Radio 3
-							</label>
+							</label></p>
 						</div>
 					</fieldset>
 
@@ -284,7 +281,8 @@
 					<fieldset class="formField formRadio">
 						<label for="formfieldID13" class="">
 							<input type="checkbox" name="formfieldID13" id="formfieldID13" />
-							I agree to the <a href="#">Terms &amp; Condtions</a></label>
+							I agree to the <a href="#">Terms &amp; Condtions</a>
+						</label>
 					</fieldset>
 
 					<div class="formContent">
@@ -293,7 +291,7 @@
 					</div>
 
 					<fieldset class="formField formSubmit">
-						<input type="submit" class="button" value="Update details" />
+						<input type="submit" class="button" value="Submit form" />
 					</fieldset>
 				</form>
 			</div>
