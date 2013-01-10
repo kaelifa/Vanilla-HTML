@@ -52,15 +52,17 @@
 }
 .t_kitchenSink {
 	.navSecondary {
-		position: fixed;
+		background: green;
 		@include at-breakpoint($tablet) {
 			@include span-columns(2,12);
 		}
 		@include at-breakpoint($computer) {
 			@include span-columns(2,12);
+			position: fixed;
 		}
 	}
 	.contentMain {
+		background: yellow;
 		@include at-breakpoint($tablet) {
 			@include span-columns(10 omega,12);
 		}

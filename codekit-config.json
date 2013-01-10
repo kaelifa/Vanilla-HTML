@@ -61,18 +61,6 @@
       "outputAbbreviatedPath" : "\/js\/plugins-ck.js",
       "fileType" : 64
     },
-    "\/css-src\/styles.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/styles.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/styles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/css-src\/partials\/elements\/_hr.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -82,6 +70,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_hr.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css-src\/styles.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css-src\/styles.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/styles.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -117,18 +117,6 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/modernizr.min-ck.js",
       "fileType" : 64
     },
-    "\/css-src\/partials\/global\/_normalize.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/global\/_normalize.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_normalize.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/css-src\/partials\/media\/_print.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -138,6 +126,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_print.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css-src\/partials\/global\/_normalize.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css-src\/partials\/global\/_normalize.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_normalize.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -394,18 +394,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css-src\/partials\/global\/_typography.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/global\/_typography.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_typography.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/css-src\/partials\/media\/_example-MQ.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -415,6 +403,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_example-MQ.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css-src\/partials\/global\/_typography.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css-src\/partials\/global\/_typography.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_typography.css",
       "fileType" : 4,
       "debugStyle" : 0
     },

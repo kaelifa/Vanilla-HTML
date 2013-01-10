@@ -472,7 +472,7 @@ hr {
 }
 
 .t_kitchenSink .navSecondary {
-  position: fixed;
+  background: green;
 }
 @media (min-width: 41em) {
   .t_kitchenSink .navSecondary {
@@ -486,7 +486,11 @@ hr {
     width: 15.25424%;
     float: left;
     margin-right: 1.69492%;
+    position: fixed;
   }
+}
+.t_kitchenSink .contentMain {
+  background: yellow;
 }
 @media (min-width: 41em) {
   .t_kitchenSink .contentMain {

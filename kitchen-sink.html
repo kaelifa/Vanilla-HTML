@@ -187,40 +187,105 @@
 				</dl>
 
 				<h2 class="ks_title" id="ks_form">Form</h2>
-				<form action="">
+				<form class="formPristine">
+				<!-- <form class="formDirty"> -->
+					<div class="formStatus">
+						<p>Form status message</p>
+						<p>Some content can appear here if the form has changed</p>
+						<p>Some content can appear here if the form has NOT changed</p>
+					</div>
+					<div class="formErrorsList">
+						<p>There were (x) errors in the form</p>
+						<ol>
+							<li>Your first name was missing</li>
+							<li>Your surname was missing</li>
+							<li>Your post code was missing</li>
+							<li>Your maiden name was missing</li>
+							<li>Your country of residence was missing</li>
+						</ol>
+					</div>
+
 					<fieldset class="formField formText">
-						<label for="formfieldID01" class="">Name</label>
-						<input type="text" name="formfieldID01" placeholder="Text Field placeholder" id="formfieldID01" />
+						<label for="ID_formText">Name</label>
+						<input type="text" name="ID_formText" placeholder="Text Field placeholder" id="ID_formText" />
+					</fieldset>
+
+					<fieldset class="formField formText formInvalid">
+						<label for="ID_formInvalid">
+							Form invalid
+							<span class="formRequiredIndicator">*</span>
+						</label>
+						<input type="text" name="ID_formInvalid" placeholder="Text Field placeholder" id="ID_formInvalid" />
+						<span class="formMessage">Form error message</span>
+					</fieldset>
+
+					<fieldset class="formField formText formValid">
+						<label for="ID_formValid">
+							Form valid
+							<span class="formRequiredIndicator">*</span>
+						</label>
+						<input type="text" name="ID_formValid" placeholder="Text Field placeholder" id="ID_formValid" />
+						<span class="formMessage">Form valid message</span>
+					</fieldset>
+
+					<fieldset class="formField formText formRequired">
+						<label for="ID_formRequired">
+							Form required
+							<span class="formRequiredIndicator">*</span>
+						</label>
+						<input type="text" name="ID_formRequired" placeholder="Text Field placeholder" id="ID_formRequired" required />
+						<span class="formMessage">Form required message</span>
+					</fieldset>
+
+					<fieldset class="formField formText">
+						<label for="ID_formInstructions">Form instructions</label>
+						<input type="text" name="ID_formInstructions" placeholder="Text Field placeholder" id="ID_formInstructions" />
+						<span class="formInstructions">Form instructions message</span>
 					</fieldset>
 
 					<fieldset class="formField formDate">
-						<label for="formfieldID02" class="">
-							Date
-							<span class="formRequired">*</span>
-						</label>
-						<input type="date" name="formfieldID02" placeholder="Start date" id="formfieldID02" required />
-
-						<!-- <span class="formMessage formInvalid">Please enter a valid date</span>
-						<span class="formMessage formValid">Valid</span> -->
+						<label for="ID_formDate">HTML5 Date field</label>
+						<input type="date" name="ID_formDate" placeholder="Date" id="ID_formDate" />
 					</fieldset>
 
 					<fieldset class="formField formNumber">
-						<label for="formfieldID10" class="">Name</label>
-						<input type="number" name="formfieldID10" placeholder="Number Field placeholder" id="formfieldID10" />
+						<label for="ID_formNumber">HTML5 Number field</label>
+						<input type="number" name="ID_formNumber" placeholder="Number Field placeholder" id="ID_formNumber" />
 					</fieldset>
 
 					<fieldset class="formField formSelect">
-						<label for="formfieldID03">Select</label>
-						<select name="formfieldID03" id="formfieldID03">
+						<label for="ID_formSelect">Select</label>
+						<select name="ID_formSelect" id="ID_formSelect">
 							<option value="Option 1">Option 1</option>
 							<option value="Option 2">Option 2</option>
 							<option value="Option 3">Option 3</option>
 						</select>
 					</fieldset>
 
+					<fieldset class="formField formSelect formOptgroup">
+						<label for="ID_formOptgroup">Select with optgroups</label>
+						<select name="ID_formOptgroup" id="ID_formOptgroup">
+							<optgroup label="Optgroup1">
+								<option value="Option 1">Option 1</option>
+								<option value="Option 2">Option 2</option>
+								<option value="Option 3">Option 3</option>
+							</optgroup>
+							<optgroup label="Optgroup2">
+								<option value="Option 4">Option 4</option>
+								<option value="Option 5">Option 5</option>
+								<option value="Option 6">Option 6</option>
+							</optgroup>
+							<optgroup label="Optgroup3">
+								<option value="Option 7">Option 7</option>
+								<option value="Option 8">Option 8</option>
+								<option value="Option 9">Option 9</option>
+							</optgroup>
+						</select>
+					</fieldset>
+
 					<fieldset class="formField formMultiSelect">
-						<label for="formfieldID12">Select</label>
-						<select name="formfieldID12" id="formfieldID12" multiple="2">
+						<label for="ID_formMultiSelect">Select</label>
+						<select name="ID_formMultiSelect" id="ID_formMultiSelect" multiple="2">
 							<option value="Option 1">Option 1</option>
 							<option value="Option 2">Option 2</option>
 							<option value="Option 3">Option 3</option>
@@ -236,18 +301,18 @@
 					<fieldset class="formField formCheckbox">
 						<legend>Checkbox</legend>
 						<div class="formMultiFieldWrapper">
-							<p><label for="formfieldID04" class="">
-								<input type="checkbox" name="formfieldID04" id="formfieldID04" />
+							<p><label for="ID_formCheckbox01">
+								<input type="checkbox" name="ID_formCheckbox01" id="ID_formCheckbox01" />
 								Checkbox 1
 							</label></p>
 
-							<p><label for="formfieldID05" class="">
-								<input type="checkbox" name="formfieldID05" id="formfieldID05" />
+							<p><label for="ID_formCheckbox02">
+								<input type="checkbox" name="ID_formCheckbox02" id="ID_formCheckbox02" />
 								Checkbox 2
 							</label></p>
 
-							<p><label for="formfieldID06" class="">
-								<input type="checkbox" name="formfieldID06" id="formfieldID06" />
+							<p><label for="ID_formCheckbox03">
+								<input type="checkbox" name="ID_formCheckbox03" id="ID_formCheckbox03" />
 								Checkbox 3
 							</label></p>
 						</div>
@@ -256,32 +321,42 @@
 					<fieldset class="formField formRadio">
 						<legend>Radio</legend>
 						<div class="formMultiFieldWrapper">
-							<p><label for="formfieldID07" class="">
-								<input type="radio" name="formfieldID07" id="formfieldID07" />
+							<p><label for="ID_formRadio01">
+								<input type="radio" name="ID_formRadio" id="ID_formRadio01" />
 								Radio 1
 							</label></p>
 
-							<p><label for="formfieldID08" class="">
-								<input type="radio" name="formfieldID08" id="formfieldID08" />
+							<p><label for="ID_formRadio02">
+								<input type="radio" name="ID_formRadio" id="ID_formRadio02" />
 								Radio 2
 							</label></p>
 
-							<p><label for="formfieldID09" class="">
-								<input type="radio" name="formfieldID09" id="formfieldID09" />
+							<p><label for="ID_formRadio03">
+								<input type="radio" name="ID_formRadio" id="ID_formRadio03" />
 								Radio 3
 							</label></p>
 						</div>
 					</fieldset>
 
 					<fieldset class="formField formTextarea">
-						<label for="formfieldID11">Textarea</label>
-						<textarea name="formfieldID11" id="formfieldID11" cols="30" rows="10"></textarea>
+						<label for="ID_formTextarea">Textarea</label>
+						<textarea name="ID_formTextarea" id="ID_formTextarea" cols="30" rows="10"></textarea>
 					</fieldset>
 
-					<fieldset class="formField formRadio">
-						<label for="formfieldID13" class="">
-							<input type="checkbox" name="formfieldID13" id="formfieldID13" />
-							I agree to the <a href="#">Terms &amp; Condtions</a>
+					<fieldset class="formField formSolitaryCheckbox">
+
+							<input type="checkbox" name="ID_formSolitaryCheckbox" id="
+							ID_formSolitaryCheckbox" />
+							<label for="ID_formSolitaryCheckbox">I agree to the <a href="#">Terms &amp; Condtions</a>
+						</label>
+					</fieldset>
+
+					<fieldset class="formField formSolitaryCheckbox">
+
+							<input type="checkbox" name="ID_formSolitaryCheckbox02" id="
+							ID_formSolitaryCheckbox02" />
+							<label for="ID_formSolitaryCheckbox02">I agree to the <a href="#">Terms &amp; Condtions</a>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 						</label>
 					</fieldset>
 
