@@ -371,9 +371,9 @@ hr {
   display: table;
   clear: both;
 }
-@media (min-width: 41em) {
+@media (min-width: 61em) {
   .t_dev .layoutWrapper {
-    max-width: 41em;
+    max-width: 61em;
     padding-left: 1em;
     padding-right: 1em;
     margin-left: auto;
@@ -425,9 +425,9 @@ hr {
   display: table;
   clear: both;
 }
-@media (min-width: 41em) {
+@media (min-width: 61em) {
   .t_dev .navPrimary {
-    max-width: 41em;
+    max-width: 61em;
     padding-left: 1em;
     padding-right: 1em;
     margin-left: auto;
@@ -471,10 +471,7 @@ hr {
   font-weight: bold;
 }
 
-.t_kitchenSink .navSecondary {
-  background: green;
-}
-@media (min-width: 41em) {
+@media (min-width: 61em) {
   .t_kitchenSink .navSecondary {
     width: 15.25424%;
     float: left;
@@ -486,13 +483,12 @@ hr {
     width: 15.25424%;
     float: left;
     margin-right: 1.69492%;
-    position: fixed;
   }
 }
-.t_kitchenSink .contentMain {
-  background: yellow;
+.t_kitchenSink .navSecondary ul {
+  position: fixed;
 }
-@media (min-width: 41em) {
+@media (min-width: 61em) {
   .t_kitchenSink .contentMain {
     width: 83.05085%;
     float: right;

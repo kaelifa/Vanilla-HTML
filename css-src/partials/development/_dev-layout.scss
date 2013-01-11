@@ -52,17 +52,17 @@
 }
 .t_kitchenSink {
 	.navSecondary {
-		background: green;
 		@include at-breakpoint($tablet) {
 			@include span-columns(2,12);
 		}
 		@include at-breakpoint($computer) {
 			@include span-columns(2,12);
+		}
+		ul {
 			position: fixed;
 		}
 	}
 	.contentMain {
-		background: yellow;
 		@include at-breakpoint($tablet) {
 			@include span-columns(10 omega,12);
 		}
@@ -71,6 +71,7 @@
 		}
 	}
 }
+// .FETO is - Front End Template Overview class
 .FETO  {
 	table {
 		width: 100%;
