@@ -287,14 +287,6 @@ hr {
   padding: 0;
 }
 
-.layoutHeader {
-  clear: both;
-}
-
-.layoutFooter {
-  clear: both;
-}
-
 @media print {
   * {
     background: transparent !important;
@@ -398,6 +390,10 @@ hr {
     display: table;
     clear: both;
   }
+}
+.t_dev .layoutHeader,
+.t_dev .layoutFooter {
+  clear: both;
 }
 @media (min-width: 55em) {
   .t_dev .contentPanel {
