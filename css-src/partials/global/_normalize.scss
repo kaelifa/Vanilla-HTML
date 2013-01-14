@@ -98,15 +98,6 @@ abbr[title] {
 }
 
 // *
-// * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
-// */
-
-b,
-strong {
-	font-weight: bold;
-}
-
-// *
 // * Addresses styling not present in Safari 5 and Chrome.
 // */
 
@@ -343,17 +334,4 @@ textarea {
 	overflow: auto; // 1
 	resize: vertical; // 2
 	vertical-align: top; // 3
-}
-
-// * ==========================================================================
-	// Tables
-	// ==========================================================================// */
-
-// *
-// * Remove most spacing between table cells.
-// */
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
 }

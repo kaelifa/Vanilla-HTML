@@ -1,0 +1,6 @@
+// ensure styling table allows ease of style changes
+// base all table styling on a class rather than the table element
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

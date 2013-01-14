@@ -40,6 +40,10 @@
 @import "partials/elements/a";
 @import "partials/elements/hx";
 @import "partials/elements/hr";
+@import "partials/elements/em";
+@import "partials/elements/strong";
+@import "partials/elements/table";
+@import "partials/elements/form";
 
 // ** @section: Layout */
 @import "partials/default-layout/wrapper";
@@ -70,3 +74,4 @@
 // ** @section: Development */
 // @import "partials/development/debug";
 @import "partials/development/dev-layout";
+@import "partials/development/style-guide";
