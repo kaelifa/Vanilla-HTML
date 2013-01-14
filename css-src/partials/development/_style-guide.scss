@@ -1,8 +1,29 @@
 .sg_snippet {
-	border: 1px solid $color-border;
+	border: 1px solid lighten($color-border, 40%);
 	@include border-radius(0.25em);
-	padding: 1em;
 }
 .sg_nav {
-
+	padding: 1em 0;
+	ul {
+		@include container;
+		@include at-breakpoint($tablet) {
+			@include container;
+		}
+		@include at-breakpoint($computer) {
+			@include container;
+			margin: 0 0 - $grid-padding;
+			// padding: 0 $grid-padding;
+		}
+	}
+	li {
+		float: left;
+	}
+	a {
+		border-right: 1px solid lighten($color-border, 40%);
+		padding: 1em;
+	}
+}
+.sg_section  {
+	border-top: 1px solid lighten($color-border, 40%);
+	padding: 1em;
 }

@@ -2,14 +2,17 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
-    "\/grid.html" : {
+    "\/css-src\/partials\/helpers\/_ir.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/grid.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/css-src\/partials\/helpers\/_ir.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_ir.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/css-src\/partials\/helpers\/_invisible.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -103,18 +106,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/css-src\/partials\/elements\/_form.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/elements\/_form.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_form.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/css-src\/partials\/default-layout\/_header.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -124,6 +115,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_header.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css-src\/partials\/elements\/_form.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css-src\/partials\/elements\/_form.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_form.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -195,18 +198,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css-src\/partials\/helpers\/_hidden.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/helpers\/_hidden.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_hidden.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/css-src\/partials\/development\/_style-guide.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -228,6 +219,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_font-sizing.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css-src\/partials\/helpers\/_hidden.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css-src\/partials\/helpers\/_hidden.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_hidden.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -355,15 +358,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css-src\/partials\/mixins\/_font-stacks.scss" : {
+    "\/css-src\/partials\/default-layout\/_main.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/mixins\/_font-stacks.scss",
+      "inputAbbreviatedPath" : "\/css-src\/partials\/default-layout\/_main.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_font-stacks.css",
+      "outputAbbreviatedPath" : "\/css\/_main.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -403,15 +406,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css-src\/partials\/default-layout\/_main.scss" : {
+    "\/css-src\/partials\/mixins\/_font-stacks.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/default-layout\/_main.scss",
+      "inputAbbreviatedPath" : "\/css-src\/partials\/mixins\/_font-stacks.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_main.css",
+      "outputAbbreviatedPath" : "\/css\/_font-stacks.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -448,6 +451,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/grid.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/grid.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/css-src\/partials\/variables\/_colour-palette.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -457,18 +469,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_colour-palette.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/css-src\/partials\/global\/_typography.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/global\/_typography.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_typography.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -484,15 +484,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css-src\/partials\/helpers\/_ir.scss" : {
+    "\/css-src\/partials\/global\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/helpers\/_ir.scss",
+      "inputAbbreviatedPath" : "\/css-src\/partials\/global\/_typography.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_ir.css",
+      "outputAbbreviatedPath" : "\/css\/_typography.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
