@@ -399,6 +399,9 @@ table {
 .t_dev .layoutFooter {
   clear: both;
 }
+.t_dev .layoutFooter {
+  margin-top: 2em;
+}
 @media (min-width: 55em) {
   .t_dev .contentPanel {
     width: 49.15254%;
@@ -594,4 +597,26 @@ table {
 .sg_section {
   border-top: 1px solid #e6e6e6;
   padding: 1em;
+  position: relative;
+}
+
+.sg_sectionHeading {
+  background: #e6e6e6;
+  -moz-border-radius-bottomright: 0.25em;
+  -webkit-border-bottom-right-radius: 0.25em;
+  border-bottom-right-radius: 0.25em;
+  -webkit-box-shadow: rgba(128, 128, 128, 0.2) 0.1em 0.1em 0.5em;
+  -moz-box-shadow: rgba(128, 128, 128, 0.2) 0.1em 0.1em 0.5em;
+  box-shadow: rgba(128, 128, 128, 0.2) 0.1em 0.1em 0.5em;
+  color: gray;
+  display: inline;
+  font-size: 80%;
+  font-weight: bold;
+  left: 0;
+  margin: 0;
+  padding: 0.25em 0.5em;
+  position: absolute;
+  text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 0;
+  top: 0;
+  width: auto;
 }
