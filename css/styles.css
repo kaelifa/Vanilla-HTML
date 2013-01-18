@@ -465,6 +465,10 @@ table {
   padding: 0 1em;
   text-decoration: none;
 }
+.t_dev .ns_heading {
+  font-size: 95%;
+  font-weight: bold;
+}
 .t_dev .pageTitle {
   font-size: 130%;
 }
