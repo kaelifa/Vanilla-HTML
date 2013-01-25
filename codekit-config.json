@@ -2,15 +2,15 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
-    "\/css-src\/partials\/global\/_typography.scss" : {
+    "\/css-src\/partials\/variables\/_colour-palette.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/global\/_typography.scss",
+      "inputAbbreviatedPath" : "\/css-src\/partials\/variables\/_colour-palette.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_typography.css",
+      "outputAbbreviatedPath" : "\/css\/_colour-palette.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -141,16 +141,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/vendor\/modernizr.min.js" : {
+    "\/css-src\/partials\/global\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/modernizr.min-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/css-src\/partials\/global\/_normalize.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_normalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/css-src\/partials\/media\/_print.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -164,17 +165,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css-src\/partials\/global\/_normalize.scss" : {
+    "\/js\/vendor\/modernizr.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/global\/_normalize.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_normalize.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/modernizr.min-ck.js",
+      "fileType" : 64
     },
     "\/js\/scripts-ck.js" : {
       "ignoreWasSetByUser" : 0,
@@ -232,18 +232,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css-src\/partials\/mixins\/_font-sizing.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/mixins\/_font-sizing.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_font-sizing.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/css-src\/partials\/development\/_style-guide.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -253,6 +241,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_style-guide.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css-src\/partials\/mixins\/_font-sizing.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css-src\/partials\/mixins\/_font-sizing.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_font-sizing.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -311,16 +311,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/scripts.js" : {
+    "\/css-src\/partials\/elements\/_body.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/scripts.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/scripts-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/css-src\/partials\/elements\/_body.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_body.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/css-src\/partials\/mixins\/_rgba-bg.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -334,17 +335,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css-src\/partials\/elements\/_body.scss" : {
+    "\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/elements\/_body.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_body.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/scripts.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/scripts-ck.js",
+      "fileType" : 64
     },
     "\/css-src\/partials\/elements\/_html.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -427,18 +427,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css-src\/partials\/settings\/_susy.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/settings\/_susy.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_susy.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/css-src\/partials\/development\/_debug.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -448,6 +436,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_debug.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/css-src\/partials\/settings\/_susy.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css-src\/partials\/settings\/_susy.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_susy.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -484,15 +484,24 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css-src\/partials\/variables\/_colour-palette.scss" : {
+    "\/grid.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/grid.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css-src\/partials\/global\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css-src\/partials\/variables\/_colour-palette.scss",
+      "inputAbbreviatedPath" : "\/css-src\/partials\/global\/_typography.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_colour-palette.css",
+      "outputAbbreviatedPath" : "\/css\/_typography.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -507,15 +516,6 @@
       "outputAbbreviatedPath" : "\/css\/_example-MQ.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/grid.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/grid.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/css-src\/partials\/helpers\/_ir.scss" : {
       "ignoreWasSetByUser" : 0,
