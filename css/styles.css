@@ -1,4 +1,17 @@
 @charset "UTF-8";
+/**
+ * @projectDescription    {{PROJECT DESCRIPTION}}
+ *               @file    {{OUTPUT-FILE-NAME.css}}
+ *             @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *            @version    0.1
+ *               @date    YYYY-MM-DD HH:MM
+ */
+/** @section     Compass */
+/** @section     Grid */
+/** @section     Settings */
+/** @section     Variables */
+/** @section     Mixins */
+/** @section     Global */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -240,12 +253,49 @@ h6 {
   font-size: 1.4rem;
 }
 
+/** @section     Elements */
+/**
+ * @description    Styling for the html element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-13 12:30
+ *
+ *
+ *     @example
+ *                 <html></html>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        html
+ */
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   overflow-y: scroll;
 }
 
+/**
+ * @description    Creates the default styling for the body element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-13 11:56
+ *
+ *
+ *     @example
+ *                 <body>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        body
+ */
 body {
   background: white;
   color: #1a1a1a;
@@ -253,6 +303,24 @@ body {
   margin: 0;
 }
 
+/**
+ * @description    Styling for the nav element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-13 12:33
+ *
+ *
+ *     @example
+ *                 <nav></nav>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        nav
+ */
 nav ul,
 nav ol,
 nav li {
@@ -261,6 +329,24 @@ nav li {
   padding: 0;
 }
 
+/**
+ * @description    Creates the default styling for links
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-13 11:54
+ *
+ *
+ *     @example
+ *                 <a href=""></a>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        a
+ */
 a {
   text-decoration: underline;
 }
@@ -268,6 +354,57 @@ a:hover {
   text-decoration: none;
 }
 
+/**
+ * @description    Heading styles
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-13 12:31
+ *
+ *
+ *     @example
+ *                 <h1></h1>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        h1
+ */
+/**
+ * @section        h2
+ */
+/**
+ * @section        h3
+ */
+/**
+ * @section        h4
+ */
+/**
+ * @section        h5
+ */
+/**
+ * @section        h6
+ */
+/**
+ * @description    Default styling for the horizontal rule element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-13 12:30
+ *
+ *
+ *     @example
+ *                 <hr />
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        hr
+ */
 hr {
   border: 0;
   border-top: 1px solid gray;
@@ -277,20 +414,176 @@ hr {
   padding: 0;
 }
 
+/**
+ * @description    Creates the default styling for <em> element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-13 11:57
+ *
+ *
+ *     @example
+ *                 <em></em>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        em
+ */
 em {
   font-style: italic;
 }
 
+/**
+ * @description    Styling for the strong element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-13 12:33
+ *
+ *
+ *     @example
+ *                 <strong></strong>
+ *
+ *
+ *        @type    element
+ *       @notes   Also covers styling for <b>
+ */
+/**
+ * @section        strong
+ */
 b,
 strong {
   font-weight: bold;
 }
 
+/**
+ * @description    Styling for the table element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-13 12:34
+ *
+ *
+ *     @example
+ *                 <table></table>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        table
+ */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+/**
+ * @description    Form styling
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-13 12:29
+ *
+ *
+ *     @example
+ *                 <form>
+</form>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        form
+ */
+/** @section     Layout */
+/**
+ * @description    Styling for the main layout wrapper
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-13 11:08
+ *
+ *
+ *     @example
+ *                 <div class="layoutWrapper">
+ *
+ * 				   </div>
+ *
+ *
+ *        @type    layout
+ *       @notes
+ */
+/**
+ * @section        layoutWrapper
+ */
+/**
+ * @description    Styling for the main layout header
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-12 17:31
+ *
+ *
+ *     @example
+ *                 <header class="layoutHeader" role="banner">
+ *
+ *                 </header>
+ *
+ *        @type    layout
+ *       @notes
+ */
+/**
+ * @section        layoutHeader
+ */
+/**
+ * @description    Styling for the main layout content area
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-12 17:32
+ *
+ *
+ *     @example
+ *                 <div class="layoutMain contentMain" role="main" id="main">
+ *
+ *                 </div>
+ *
+ *        @type    layout
+ *       @notes
+ */
+/**
+ * @section        layoutMain
+ */
+/**
+ * @description    Stying for the main layout footer
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-12 17:29
+ *
+ *
+ *     @example
+ *                 <footer class="layoutFooter" role="contentinfo">
+ *
+ *                 </footer>
+ *
+ *        @type    layout
+ *       @notes
+ */
+/**
+ * @section        layoutFooter
+ */
+/** @section     Navigation */
+/** @section     Modules */
+/** @section     Plugins */
+/** @section     Helpers */
+/** @section     Print */
 @media print {
   * {
     background: transparent !important;
@@ -353,6 +646,25 @@ table {
     page-break-after: avoid;
   }
 }
+/** @section     Development */
+/**
+ * @description    Styling for the templates information page ONLY, not to be used in the actual build.
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-13 11:11
+ *
+ *
+ *     @example
+ *
+ *
+ *
+ *        @type    dev-layout
+ *       @notes
+ */
+/**
+ * @section        t-dev
+ */
 .t_dev .layoutWrapper {
   *zoom: 1;
   max-width: 26em;
@@ -478,6 +790,9 @@ table {
   font-weight: bold;
 }
 
+/**
+ * @section        t_kitchenSink
+ */
 @media (min-width: 61em) {
   .t_kitchenSink .navSecondary {
     width: 15.25424%;
@@ -507,6 +822,9 @@ table {
   }
 }
 
+/**
+ * @section        .FETO is - Front End Template Overview class
+ */
 .FETO table {
   width: 100%;
 }
@@ -535,6 +853,24 @@ table {
   width: 75px;
 }
 
+/**
+ * @description    Styling for the style guide
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-13 11:12
+ *
+ *
+ *     @example
+ *
+ *
+ *
+ *        @type    development
+ *       @notes    Please use the .sg_ namespace for any styling to target the style guide only.
+ */
+/**
+ * @section        sg_snippet
+ */
 .sg_snippet {
   border: 1px solid #e6e6e6;
   -webkit-border-radius: 0.25em;

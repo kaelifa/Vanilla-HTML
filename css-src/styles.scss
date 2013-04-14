@@ -1,39 +1,41 @@
 @charset "UTF-8";
 
-// * @projectDescription: {{PROJECT DESCRIPTION}}
-// * @file: styles.css
-// * @author: Kristina Auckland <kristina.auckland@gmail.com>
-// * @version: 0.1
-// * @date: YYYY-MM-DD
+/**
+ * @projectDescription    {{PROJECT DESCRIPTION}}
+ *               @file    {{OUTPUT-FILE-NAME.css}}
+ *             @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *            @version    0.1
+ *               @date    YYYY-MM-DD HH:MM
+ */
 
 // * NB. This is the master Sass file which imports all the partials.
 // * No CSS should be written in this file.
 
-// ** @section: Compass */
+/** @section     Compass */
 @import "compass/css3";
 
-// ** @section: Grid */
+/** @section     Grid */
 @import "susy";
 @import 'modular-scale';
 
-// ** @section: Settings */
+/** @section     Settings */
 @import "partials/settings/susy";
 
-// ** @section: Variables */
+/** @section     Variables */
 @import "partials/variables/colour-palette";
 
-// ** @section: Mixins */
+/** @section     Mixins */
 @import "partials/mixins/font-sizing";
 @import "partials/mixins/font-stacks";
 @import "partials/mixins/rgba-bg";
 
-// ** @section: Global */
+/** @section     Global */
 @include border-box-sizing;
 @import "partials/global/selection";
 @import "partials/global/normalize";
 @import "partials/global/typography";
 
-// ** @section: Elements */
+/** @section     Elements */
 @import "partials/elements/html";
 @import "partials/elements/body";
 @import "partials/elements/nav";
@@ -45,22 +47,22 @@
 @import "partials/elements/table";
 @import "partials/elements/form";
 
-// ** @section: Layout */
+/** @section     Layout */
 @import "partials/default-layout/wrapper";
 @import "partials/default-layout/header";
 @import "partials/default-layout/main";
 @import "partials/default-layout/footer";
 
-// ** @section: Navigation */
+/** @section     Navigation */
 @import "partials/navigation/primary";
 
-// ** @section: Modules */
+/** @section     Modules */
 // @import "partials/modules/XXXX";
 
-// ** @section: Plugins */
+/** @section     Plugins */
 // @import "partials/plugins/XXXX";
 
-// ** @section: Helpers */
+/** @section     Helpers */
 // @import "partials/helpers/ir";
 // @import "partials/helpers/hidden";
 // @import "partials/helpers/visually-hidden";
@@ -68,10 +70,10 @@
 // @import "partials/helpers/clearfix";
 // @import "partials/helpers/XXXX";
 
-// ** @section: Print */
+/** @section     Print */
 @import "partials/media/print";
 
-// ** @section: Development */
+/** @section     Development */
 // @import "partials/development/debug";
 @import "partials/development/dev-layout";
 @import "partials/development/style-guide";

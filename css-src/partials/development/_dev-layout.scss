@@ -1,4 +1,23 @@
-// Styling for the templates information page ONLY, not to be used in the actual build.
+/**
+ * @description    Styling for the templates information page ONLY, not to be used in the actual build.
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-13 11:11
+ *
+ *
+ *     @example
+ *
+ *
+ *
+ *        @type    dev-layout
+ *       @notes
+ */
+
+
+/**
+ * @section        t-dev
+ */
 .t_dev {
 	.layoutWrapper {
 		@include container;
@@ -64,6 +83,10 @@
 		font-weight: bold;
 	}
 }
+
+/**
+ * @section        t_kitchenSink
+ */
 .t_kitchenSink {
 	.navSecondary {
 		@include at-breakpoint($tablet) {
@@ -82,7 +105,10 @@
 		}
 	}
 }
-// .FETO is - Front End Template Overview class
+
+/**
+ * @section        .FETO is - Front End Template Overview class
+ */
 .FETO  {
 	table {
 		width: 100%;

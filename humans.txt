@@ -1,10 +1,10 @@
 # TEAM
 
-	Kristina Auckland -- Front End Developer -- @kaelifa
+	[NAME] -- [JOB TITLE] -- [TWITTER HANDLE]
 
 # THANKS
 
-	<name>
+	[NAME]
 
 # TECHNOLOGY COLOPHON
 
