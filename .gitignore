@@ -13,3 +13,5 @@
 *.DS_Store
 .sass-cache/
 [Tt]humbs\.db
+
+codekit-config.json
