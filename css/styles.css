@@ -4,7 +4,7 @@
  *               @file    {{OUTPUT-FILE-NAME.css}}
  *             @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *            @version    0.1
- *               @date    YYYY-MM-DD HH:MM
+ *               @date    {{YYYY-MM-DD HH:MM}}
  */
 /** @section     Compass */
 /** @section     Grid */
@@ -28,6 +28,25 @@
   text-shadow: none;
 }
 
+/**
+ * @description    normalize reset stylesheet
+ *
+ *      @author    normalize.css v2.0.1 | MIT License | git.io/normalize
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example
+ *
+ *
+ *
+ *        @type    global reset
+ *       @notes
+ */
+/**
+ *     @section   HTML5 display definitions
+ *       @notes   Corrects `block` display not defined in IE 8/9.
+ */
 article,
 aside,
 details,
@@ -42,12 +61,19 @@ summary {
   display: block;
 }
 
+/**
+ *       @notes   Corrects `inline-block` display not defined in IE 8/9.
+ */
 audio,
 canvas,
 video {
   display: inline-block;
 }
 
+/**
+ *       @notes   Prevents modern browsers from displaying `audio` without controls.
+ *
+ */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -257,9 +283,9 @@ h6 {
 /**
  * @description    Styling for the html element
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-13 12:30
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
@@ -281,9 +307,9 @@ html {
 /**
  * @description    Creates the default styling for the body element
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-13 11:56
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
@@ -306,9 +332,9 @@ body {
 /**
  * @description    Styling for the nav element
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-13 12:33
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
@@ -332,9 +358,9 @@ nav li {
 /**
  * @description    Creates the default styling for links
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-13 11:54
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
@@ -357,9 +383,9 @@ a:hover {
 /**
  * @description    Heading styles
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-13 12:31
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
@@ -390,9 +416,9 @@ a:hover {
 /**
  * @description    Default styling for the horizontal rule element
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-13 12:30
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
@@ -417,9 +443,9 @@ hr {
 /**
  * @description    Creates the default styling for <em> element
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-13 11:57
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
@@ -439,9 +465,9 @@ em {
 /**
  * @description    Styling for the strong element
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-13 12:33
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
@@ -462,9 +488,9 @@ strong {
 /**
  * @description    Styling for the table element
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-13 12:34
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
@@ -485,9 +511,9 @@ table {
 /**
  * @description    Form styling
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-13 12:29
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
@@ -505,9 +531,9 @@ table {
 /**
  * @description    Styling for the main layout wrapper
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-13 11:08
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
@@ -525,9 +551,9 @@ table {
 /**
  * @description    Styling for the main layout header
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-12 17:31
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
@@ -544,9 +570,9 @@ table {
 /**
  * @description    Styling for the main layout content area
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-12 17:32
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
@@ -563,9 +589,9 @@ table {
 /**
  * @description    Stying for the main layout footer
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-12 17:29
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
@@ -650,9 +676,9 @@ table {
 /**
  * @description    Styling for the templates information page ONLY, not to be used in the actual build.
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-13 11:11
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
@@ -856,9 +882,9 @@ table {
 /**
  * @description    Styling for the style guide
  *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
  *     @version    0.1
- *        @date    2013-03-13 11:12
+ *        @date    {{YYYY-MM-DD HH:MM}}
  *
  *
  *     @example
