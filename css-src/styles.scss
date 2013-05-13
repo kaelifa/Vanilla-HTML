@@ -12,10 +12,17 @@
 // * No CSS should be written in this file.
 
 /** @section     Compass */
+// Compass - http://compass-style.org/install/
+// $ sudo gem update --system
+// $ sudo gem install compass
 @import "compass/css3";
 
 /** @section     Grid */
+// Susy - http://susy.oddbird.net/guides/
+// $ sudo gem install susy
 @import "susy";
+// Modular Scale - http://thesassway.com/projects/modular-scale
+// $ sudo gem install modular-scale
 @import 'modular-scale';
 
 /** @section     Settings */
