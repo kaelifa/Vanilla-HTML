@@ -1,9 +1,37 @@
+/**
+ * @description    font stack mixins
+ *
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example
+ *
+ *
+ *
+ *        @type    mixin
+ *       @notes
+ */
+
+
+/**
+ *     @section   default-font-stack
+ */
 @mixin default-font-stack {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+/**
+ *     @section   headline-font-stack
+ */
 @mixin headline-font-stack {
 	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 }
+
+/**
+ *     @section   logo-font-stack
+ */
 @mixin logo-font-stack {
 	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }

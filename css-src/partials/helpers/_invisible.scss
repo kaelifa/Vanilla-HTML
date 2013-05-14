@@ -1,7 +1,23 @@
-// /*
-//  * Hide visually and from screenreaders, but maintain layout
-//  */
+/**
+ * @description    invisible helper class
+ *
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example
+ *                 <div class="invisible"></div>
+ *
+ *
+ *
+ *        @type    mixin
+ *       @notes    Hide visually and from screenreaders, but maintain layout
+ */
 
+/**
+ * @section        invisible
+ */
 .invisible {
 	visibility: hidden;
 }

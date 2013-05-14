@@ -1,1 +1,0 @@
-$("#sg_elements").click(function(){$("#sg_elements.ns_beta").toggle()});

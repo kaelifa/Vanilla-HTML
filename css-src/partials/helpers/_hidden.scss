@@ -1,7 +1,23 @@
-// /*
-//  * Hide from both screenreaders and browsers: h5bp.com/u
-//  */
+/**
+ * @description    hidden helper class
+ *
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example
+ *                 <div class="hidden"></div>
+ *
+ *
+ *
+ *        @type    mixin
+ *       @notes    Hide from both screenreaders and browsers: h5bp.com/u
+ */
 
+/**
+ * @section        hidden
+ */
 .hidden {
 	display: none !important;
 	visibility: hidden;

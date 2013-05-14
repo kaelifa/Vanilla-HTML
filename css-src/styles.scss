@@ -11,38 +11,55 @@
 // * NB. This is the master Sass file which imports all the partials.
 // * No CSS should be written in this file.
 
-/** @section     Compass */
-// Compass - http://compass-style.org/install/
-// $ sudo gem update --system
-// $ sudo gem install compass
+/**
+ * @section        Compass
+ *   @notes        http://compass-style.org/install/
+ *                 $ sudo gem update --system
+ *                 $ sudo gem install compass
+ */
 @import "compass/css3";
 
-/** @section     Grid */
-// Susy - http://susy.oddbird.net/guides/
-// $ sudo gem install susy
+/**
+ * @section        Susy Grid
+ *   @notes        http://susy.oddbird.net/guides/
+ *                 $ sudo gem install susy
+ */
 @import "susy";
-// Modular Scale - http://thesassway.com/projects/modular-scale
-// $ sudo gem install modular-scale
+
+/**
+ * @section        Modular Scale
+ *   @notes        http://thesassway.com/projects/modular-scale
+ *                 $ sudo gem install modular-scale
+ */
 @import 'modular-scale';
 
-/** @section     Settings */
+/**
+ * @section        Settings
+ */
 @import "partials/settings/susy";
 
-/** @section     Variables */
+/**
+ * @section        Variables
+ */
 @import "partials/variables/colour-palette";
 
-/** @section     Mixins */
+/**
+ * @section        Mixins
+ */
 @import "partials/mixins/font-sizing";
 @import "partials/mixins/font-stacks";
 @import "partials/mixins/rgba-bg";
 
-/** @section     Global */
+/**
+ * @section        Global
+ */
 @include border-box-sizing;
 @import "partials/global/selection";
 @import "partials/global/normalize";
-@import "partials/global/typography";
 
-/** @section     Elements */
+/**
+ * @section        Elements
+ */
 @import "partials/elements/html";
 @import "partials/elements/body";
 @import "partials/elements/nav";
@@ -54,22 +71,32 @@
 @import "partials/elements/table";
 @import "partials/elements/form";
 
-/** @section     Layout */
+/**
+ * @section        Layout
+ */
 @import "partials/default-layout/wrapper";
 @import "partials/default-layout/header";
 @import "partials/default-layout/main";
 @import "partials/default-layout/footer";
 
-/** @section     Navigation */
+/**
+ * @section        Navigation
+ */
 @import "partials/navigation/primary";
 
-/** @section     Modules */
+/**
+ * @section        Modules
+ */
 // @import "partials/modules/XXXX";
 
-/** @section     Plugins */
+/**
+ * @section        Plugins
+ */
 // @import "partials/plugins/XXXX";
 
-/** @section     Helpers */
+/**
+ * @section        Helpers
+ */
 // @import "partials/helpers/ir";
 // @import "partials/helpers/hidden";
 // @import "partials/helpers/visually-hidden";
@@ -77,10 +104,14 @@
 // @import "partials/helpers/clearfix";
 // @import "partials/helpers/XXXX";
 
-/** @section     Print */
+/**
+ * @section        Media
+ */
 @import "partials/media/print";
 
-/** @section     Development */
+/**
+ * @section        Development
+ */
 // @import "partials/development/debug";
 @import "partials/development/dev-layout";
 @import "partials/development/style-guide";

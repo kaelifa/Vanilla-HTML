@@ -1,7 +1,23 @@
-// /*
-//  * Hide only visually, but have it available for screenreaders: h5bp.com/v
-//  */
+/**
+ * @description    visuallyhidden helper class
+ *
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example
+ *                 <div class="visuallyhidden"></div>
+ *
+ *
+ *
+ *        @type    mixin
+ *       @notes    Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
 
+/**
+ * @section        visuallyhidden
+ */
 .visuallyhidden {
 	border: 0;
 	clip: rect(0 0 0 0);
@@ -13,11 +29,10 @@
 	width: 1px;
 }
 
-// /*
-//  * Extends the .visuallyhidden class to allow the element to be focusable
-//  * when navigated to via the keyboard: h5bp.com/p
-//  */
-
+/**
+ *       @notes    Extends the .visuallyhidden class to allow the element to be focusable
+ *                 when navigated to via the keyboard: h5bp.com/p
+ */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
 	clip: auto;

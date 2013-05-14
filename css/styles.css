@@ -6,23 +6,168 @@
  *            @version    0.1
  *               @date    {{YYYY-MM-DD HH:MM}}
  */
-/** @section     Compass */
-/** @section     Grid */
-/** @section     Settings */
-/** @section     Variables */
-/** @section     Mixins */
-/** @section     Global */
+/**
+ * @section        Compass
+ *   @notes        http://compass-style.org/install/
+ *                 $ sudo gem update --system
+ *                 $ sudo gem install compass
+ */
+/**
+ * @section        Susy Grid
+ *   @notes        http://susy.oddbird.net/guides/
+ *                 $ sudo gem install susy
+ */
+/**
+ * @section        Modular Scale
+ *   @notes        http://thesassway.com/projects/modular-scale
+ *                 $ sudo gem install modular-scale
+ */
+/**
+ * @section        Settings
+ */
+/**
+ * @description    Susy Settings - Set up your default grid values: total columns, column width, and gutter width.
+ *
+ *      @author    http://susy.oddbird.net/
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example
+ *
+ *
+ *        @type    navigation
+ *       @notes
+ *
+ */
+/**
+ * @section        navPrimary
+ */
+/**
+ * @section        Variables
+ */
+/**
+ * @description    Colour palette
+ *
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example
+ *
+ *
+ *        @type    variables
+ *       @notes
+ *
+ */
+/**
+* @section        Define colours
+*/
+/**
+* @section        Hex values
+*/
+/**
+* @section        RGB values
+*/
+/**
+ * @section        Mixins
+ */
+/**
+ * @description    font-sizing mixin
+ *
+ *      @author    http://css-tricks.com/snippets/css/less-mixin-for-rem-font-sizing/
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example    @include font-size(1.6);
+ *
+ *
+ *        @type    mixin
+ *       @notes    returns rem and fall-back px values
+ */
+/**
+ * @section        font-size
+ */
+/**
+ * @description    font stack mixins
+ *
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example
+ *
+ *
+ *
+ *        @type    mixin
+ *       @notes
+ */
+/**
+ *     @section   default-font-stack
+ */
+/**
+ *     @section   headline-font-stack
+ */
+/**
+ *     @section   logo-font-stack
+ */
+/**
+ * @description    rgba-bg mixin
+ *
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example
+ *
+ *
+ *        @type    mixin
+ *       @notes    converts hex value to rgb along with alpha
+ */
+/**
+ * @section        rgba-bg
+ */
+/**
+ * @section        Global
+ */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+/**
+ * @description    font stack mixins
+ *
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example
+ *
+ *
+ *
+ *        @type    mixin
+ *       @notes    Remove text-shadow in selection highlight: h5bp.com/i
+ *                 These selection declarations have to be separate.
+ *                 Customize the background color to match your design.
+ */
+/**
+ *     @section   moz-selection
+ */
 ::-moz-selection {
   background: #fbeed3;
   text-shadow: none;
 }
 
+/**
+ *     @section   selection
+ */
 ::selection {
   background: #fbeed3;
   text-shadow: none;
@@ -228,58 +373,9 @@ textarea {
   vertical-align: top;
 }
 
-html {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 16px;
-  font-size: 1.6rem;
-  line-height: 1.4;
-}
-
-h1 {
-  font-size: 55px;
-  font-size: 5.5rem;
-  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-}
-
-h2,
-h3,
-h4,
-h5 {
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-weight: normal;
-}
-
-h2 {
-  font-size: 42px;
-  font-size: 4.2rem;
-}
-
-h3 {
-  font-size: 26px;
-  font-size: 2.6rem;
-}
-
-h4 {
-  font-size: 20px;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-h5 {
-  font-size: 18px;
-  font-size: 1.8rem;
-}
-
-h6 {
-  font-size: 14px;
-  font-size: 1.4rem;
-}
-
-/** @section     Elements */
+/**
+ * @section        Elements
+ */
 /**
  * @description    Styling for the html element
  *
@@ -301,6 +397,8 @@ h6 {
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 62.5%;
   overflow-y: scroll;
 }
 
@@ -326,6 +424,9 @@ body {
   background: white;
   color: #1a1a1a;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.4;
   margin: 0;
 }
 
@@ -398,21 +499,63 @@ a:hover {
 /**
  * @section        h1
  */
+h1 {
+  font-size: 55px;
+  font-size: 5.5rem;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+/**
+ * @section        h2,h3,h4,h5,h6
+ */
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
 /**
  * @section        h2
  */
+h2 {
+  font-size: 42px;
+  font-size: 4.2rem;
+}
+
 /**
  * @section        h3
  */
+h3 {
+  font-size: 26px;
+  font-size: 2.6rem;
+}
+
 /**
  * @section        h4
  */
+h4 {
+  font-size: 20px;
+  font-size: 2rem;
+}
+
 /**
  * @section        h5
  */
+h5 {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
 /**
  * @section        h6
  */
+h6 {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
 /**
  * @description    Default styling for the horizontal rule element
  *
@@ -527,7 +670,9 @@ table {
 /**
  * @section        form
  */
-/** @section     Layout */
+/**
+ * @section        Layout
+ */
 /**
  * @description    Styling for the main layout wrapper
  *
@@ -605,11 +750,58 @@ table {
 /**
  * @section        layoutFooter
  */
-/** @section     Navigation */
-/** @section     Modules */
-/** @section     Plugins */
-/** @section     Helpers */
-/** @section     Print */
+/**
+ * @section        Navigation
+ */
+/**
+ * @description    Styling for the primary navigation
+ *
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example
+ *                 <nav class="navPrimary">
+ *
+ *                 </nav>
+ *
+ *        @type    navigation
+ *       @notes
+ *
+ */
+/**
+ * @section        navPrimary
+ */
+/**
+ * @section        Modules
+ */
+/**
+ * @section        Plugins
+ */
+/**
+ * @section        Helpers
+ */
+/**
+ * @section        Media
+ */
+/**
+ * @description    print stylesheet
+ *
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example
+ *
+ *
+ *        @type    @media
+ *       @notes    based on HTML5 boilerplate default print stylesheet
+ */
+/**
+ * @section        print
+ */
 @media print {
   * {
     background: transparent !important;
@@ -672,11 +864,13 @@ table {
     page-break-after: avoid;
   }
 }
-/** @section     Development */
+/**
+ * @section        Development
+ */
 /**
  * @description    Styling for the templates information page ONLY, not to be used in the actual build.
  *
- *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *      @author    Kristina Auckland <Kristina.Auckland@bss.org>
  *     @version    0.1
  *        @date    {{YYYY-MM-DD HH:MM}}
  *
@@ -882,7 +1076,7 @@ table {
 /**
  * @description    Styling for the style guide
  *
- *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *      @author    Kristina Auckland <Kristina.Auckland@bss.org>
  *     @version    0.1
  *        @date    {{YYYY-MM-DD HH:MM}}
  *

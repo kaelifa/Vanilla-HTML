@@ -1,3 +1,21 @@
+/**
+ * @description    rgba-bg mixin
+ *
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example
+ *
+ *
+ *        @type    mixin
+ *       @notes    converts hex value to rgb along with alpha
+ */
+
+/**
+ * @section        rgba-bg
+ */
 @mixin rgba-bg($hex, $a) {
 	//  for older browers
 	background-color: $hex;

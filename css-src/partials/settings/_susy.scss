@@ -1,20 +1,36 @@
-// http://susy.oddbird.net/
-// Susy Settings
+/**
+ * @description    Susy Settings - Set up your default grid values: total columns, column width, and gutter width.
+ *
+ *      @author    http://susy.oddbird.net/
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example
+ *
+ *
+ *        @type    navigation
+ *       @notes
+ *
+ */
 
-// Set up your default grid values: total columns, column width, and gutter width.
-// $total-columns	: 12;			// a 12-column grid
-// $column-width	: 4em;			// each column is 4em wide
-// $gutter-width	: 1em;			// 1em gutters between columns
-// $grid-padding	: $gutter-width;	// grid-padding equal to gutters
+/**
+ * @section        navPrimary
+ */
 
-$total-columns	: 5;			// a 12-column grid
-$column-width	: 4em;			// each column is 4em wide
-$gutter-width		: 1em;			// 1em gutters between columns
-$grid-padding		: $gutter-width;	// grid-padding equal to gutters
+// $total-columns: 12;			// a 12-column grid
+// $column-width : 4em;			// each column is 4em wide
+// $gutter-width : 1em;			// 1em gutters between columns
+// $grid-padding : $gutter-width;	// grid-padding equal to gutters
 
-$break: 12;
+$total-columns   : 5;			// a 12-column grid
+$column-width    : 4em;			// each column is 4em wide
+$gutter-width    : 1em;			// 1em gutters between columns
+$grid-padding    : $gutter-width;	// grid-padding equal to gutters
+
+$break           : 12;
 
 //alternative layout breakpoints
 $mobile-landscape: 6;
-$tablet: 12;
-$computer: 55em 12;
+$tablet          : 12;
+$computer        : 55em 12;

@@ -1,7 +1,24 @@
-// /*
-//  * Image replacement
-//  */
+/**
+ * @description    ir (image replacement) helper class
+ *
+ *      @author    {{AUTHOR NAME <AUTHOR.EMAIL@bss.org>}}
+ *     @version    0.1
+ *        @date    {{YYYY-MM-DD HH:MM}}
+ *
+ *
+ *     @example
+ *                 <div class="ir"></div>
+ *
+ *
+ *
+ *        @type    mixin
+ *       @notes    Image replacement
+ *                 requires .lt-ie7 class in the <html> element
+ */
 
+/**
+ * @section        ir
+ */
 .ir {
 	background-color: transparent;
 	border: 0;
